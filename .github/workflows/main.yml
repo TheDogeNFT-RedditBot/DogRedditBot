@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         subreddit:
-          - ownthedogenft
+          - ownthedoge
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
